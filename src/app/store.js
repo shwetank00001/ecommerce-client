@@ -6,3 +6,5 @@ export const store = configureStore({
     counter: counterReducer,
   },
 });
+
+// https://github.com/coderdost/MERN-ecommerce-Frontend.git
