@@ -1,15 +1,15 @@
-import React from 'react'
-import Navbar from '../features/navbar/Navbar'
-import ProductList from '../features/product-list/ProductList'
+import React from "react";
+import Navbar from "../features/navbar/Navbar";
+import ProductList from "../features/product-list/components/ProductList";
 
 const Home = () => {
-  return (
-    <div>
-        <Navbar>
-            <ProductList></ProductList>
-        </Navbar>
-    </div>
-  )
-}
+    return (
+        <div>
+            <Navbar>
+                <ProductList></ProductList>
+            </Navbar>
+        </div>
+    );
+};
 
-export default Home
+export default Home;
