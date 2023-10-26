@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 import { RadioGroup } from "@headlessui/react";
@@ -61,7 +60,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-export default function ProductDetails() {
+export default function ProductDetail() {
     const [selectedColor, setSelectedColor] = useState(product.colors[0]);
     const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
 

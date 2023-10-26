@@ -67,7 +67,7 @@ const filters = [
     },
 ];
 
-const oldProducts = [
+const p1roducts = [
     {
         id: 1,
         name: "Basic Tee",
@@ -726,6 +726,8 @@ const products = [
 
 export default function ProductList() {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+    const products = useSelector( (state) => state.product.products)
 
 
     return (

@@ -1,10 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import productReducer from "../features/product-list/productSlice";
 
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+    reducer: {
+        product: productReducer,
+    },
 });
-
-// https://github.com/coderdost/MERN-ecommerce-Frontend.git
